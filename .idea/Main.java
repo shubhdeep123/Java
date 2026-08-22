@@ -94,7 +94,7 @@ class Student {
 
     Student(String name, String collegeName, int rollNo, int age) {
         this.name = name;
-        this.collegeName = collegeName;
+        Student.collegeName = collegeName;
         this.rollNo = rollNo;
         this.age = age;
     }

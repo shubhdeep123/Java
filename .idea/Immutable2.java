@@ -1,6 +1,14 @@
 public class Immutable2 {
     public static void main(String[] args) {
+        College college1 = new College("XYZ College", "New York");
 
+        Student student1 = new Student("John", 20,college1);
+
+        System.out.println("college: " + student1.getCollege().name);
+
+        student1.getCollege().name = "ABC College"; 
+
+        System.out.println("college: " + student1.getCollege().name);
     }
 }
 
@@ -15,7 +23,7 @@ final class Student {
     Student(String name, int age, College college) {
         this.name = name;
         this.age = age;
-        this.college = college;
+        this.college = new College(college.name, college.location); // creating a new instance of the mutable object to ensure immutability
     }
 
     //getters
@@ -28,7 +36,7 @@ final class Student {
     }
 
     public College getCollege() {
-        return college;
+        return new College(this.college.name, this.college.location); // returning a new instance of the mutable object to ensure immutability
     }
 }
 
