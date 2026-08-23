@@ -1,7 +1,7 @@
     import java.util.Objects;
     
     public class ObjectTest {
-        public static void main(String[] args) {
+        public static void main(String[] args) throws CloneNotSupportedException {
             Employee employee1 = new Employee();
             employee1.name = "John";
             employee1.age = 20;
@@ -9,6 +9,8 @@
             employee2.name = "John";
             employee2.age = 20;
 
+            Employee employee3 = (Employee) employee1.clone(); // employee3 references the same object as employee1
+            System.out.println(employee1 == employee3); // true, because they reference the same object in memory
             System.out.println(employee1 instanceof Object); // true, because employee1 is an instance of Employee class
             // System.out.println(employee1 instanceof Employee); // true, because employee1 is an instance of Employee class
             // System.out.println(employee1.hashCode() == employee2.hashCode()); // prints the hash code of employee1
@@ -21,7 +23,7 @@
         }
     }
 
-    class Employee {
+    class Employee implements Cloneable {
         String name;
         int age;
 
