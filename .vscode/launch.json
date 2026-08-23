@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PersonClass",
+            "request": "launch",
+            "mainClass": "Practice.PersonClass",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "INotification",
+            "request": "launch",
+            "mainClass": "Practice.INotification",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "PaymentInterface",
+            "request": "launch",
+            "mainClass": "Practice.PaymentInterface",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "AbstractShape",
+            "request": "launch",
+            "mainClass": "Practice.AbstractShape",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Practice.Calculator",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "Practice.Inheritance",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorChaining",
+            "request": "launch",
+            "mainClass": "Practice.ConstructorChaining",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
