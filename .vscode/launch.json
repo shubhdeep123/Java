@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Interfaces",
+            "request": "launch",
+            "mainClass": "Practice.Interfaces",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
             "name": "PersonClass",
             "request": "launch",
             "mainClass": "Practice.PersonClass",
