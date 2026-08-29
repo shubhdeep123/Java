@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BoundedTypes",
+            "request": "launch",
+            "mainClass": "Practice.BoundedTypes",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "GenericMethods",
+            "request": "launch",
+            "mainClass": "Practice.GenericMethods",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "GenericClasa",
+            "request": "launch",
+            "mainClass": "Practice.GenericClasa",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "Casting",
+            "request": "launch",
+            "mainClass": "Practice.Casting",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
             "name": "StringBuilderMethod",
             "request": "launch",
             "mainClass": "Practice.StringBuilderMethod",
