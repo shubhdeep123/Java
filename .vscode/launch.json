@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringBuilderMethod",
+            "request": "launch",
+            "mainClass": "Practice.StringBuilderMethod",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
             "name": "StringMethods",
             "request": "launch",
             "mainClass": "Practice.StringMethods",
