@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LowerBoundType",
+            "request": "launch",
+            "mainClass": "Practice.LowerBoundType",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
             "name": "WildCard",
             "request": "launch",
             "mainClass": "Practice.WildCard",

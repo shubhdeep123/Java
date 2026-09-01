@@ -37,6 +37,7 @@ public class WildCard {
     static void fun(List<?> values) {
         for (Object obj : values) {
             System.out.println(obj.getClass().getName());
+            String s = new String("hello");
         }
     }
 
