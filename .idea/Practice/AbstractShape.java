@@ -14,6 +14,7 @@ public class AbstractShape {
         shapes.add(rectangle);
         shapes.add(triangle);
 
+        // calling area with shape interface reference
         for (Shape shape : shapes) {
             shape.area();
         }
