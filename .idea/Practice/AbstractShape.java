@@ -24,6 +24,7 @@ public class AbstractShape {
 
 abstract class Shape {
     abstract void area();
+    abstract void perimeter();
 }
 
 class Circle extends Shape {
