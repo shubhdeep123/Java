@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConcurrentModification",
+            "request": "launch",
+            "mainClass": "Practice.ConcurrentModification",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "IteratorImp",
+            "request": "launch",
+            "mainClass": "Practice.IteratorImp",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
+            "name": "IteratorClass",
+            "request": "launch",
+            "mainClass": "Practice.IteratorClass",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
             "name": "LowerBoundType",
             "request": "launch",
             "mainClass": "Practice.LowerBoundType",
