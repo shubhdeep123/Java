@@ -4,7 +4,7 @@ import java.util.*;
 
 public class IteratorImp {
     public static void main(String[] args) {
-        String[] names = {"Alice", "Bob", "Charlie", "David"};
+        String[] names = {"Alice", "Bob", "Charlie", "David","Chirag"};
         NameContainer nameContainer = new NameContainer(names);
 
         Iterator<String> it = nameContainer.iterator();
