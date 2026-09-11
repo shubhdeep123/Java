@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CollectionPractice",
+            "request": "launch",
+            "mainClass": "Practice.CollectionPractice",
+            "projectName": "Java_633148bb"
+        },
+        {
+            "type": "java",
             "name": "ConcurrentModification",
             "request": "launch",
             "mainClass": "Practice.ConcurrentModification",
