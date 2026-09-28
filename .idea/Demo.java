@@ -2,6 +2,7 @@ public class Demo {
     public static void main(String[] args) {
         Animal animal = new Animal();
         Animal dog = new Dog();
+        Dog dog2 = new Dog();
 
         System.out.println(animal.getClass().getName()); // prints the class name of animal
         System.out.println(dog.getClass().getName()); // prints the class name of dog
